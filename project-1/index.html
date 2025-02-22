@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Quality Detection with Deep Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Revolutionizing Fruit Quality Detection with Deep Learning</h1>
+            <p>Using AI to detect and assess the freshness and spoilage of fruits for better quality control and reduced waste.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>Our deep learning system analyzes fruit images to detect spoilage and freshness using advanced models.</p>
+            <ul>
+                <li><strong>Image Processing:</strong> Detecting color, texture, and shape.</li>
+                <li><strong>Deep Learning Models:</strong> Using CNNs and AI for classification.</li>
+                <li><strong>Real-Time Predictions:</strong> Predicting spoilage based on environmental factors.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo">
+        <div class="container">
+            <h2>Test Our Fruit Quality Detection</h2>
+            <p>Upload an image of a fruit to see how our system detects spoilage.</p>
+            <input type="file" id="fruitImage" accept="image/*">
+            <button onclick="detectFruitQuality()">Analyze Fruit Quality</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of AI specialists working to improve agricultural technology with deep learning for fruit quality detection and waste reduction.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message here..." required></textarea><br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Fruit Quality Detection Inc. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
